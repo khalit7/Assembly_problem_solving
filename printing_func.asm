@@ -9,7 +9,6 @@ section .text
 global _main
 _main:
     mov ebp, esp; for correct debugging
-; void print(mat,m,n);
 push dword[N]
 push dword[M]
 push mat
