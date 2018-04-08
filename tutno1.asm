@@ -11,7 +11,7 @@ xpe: dq 0.0
 ans: dq 0.0
 stp: dq 0.1
 format: db "dy/dx = %0.2f",10,0
-   ;;;;;;;;; this is  acomment
+   
 section .text
 global CMAIN
 CMAIN:
